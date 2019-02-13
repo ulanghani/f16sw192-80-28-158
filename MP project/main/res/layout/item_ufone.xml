@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/bucket_name"
+        android:layout_marginTop="20dp"
+        android:hint="bucket_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:maxWidth="70dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:id="@+id/network_name"
+        android:layout_marginTop="20dp"
+        android:hint="bucket_name"
+        android:layout_toRightOf="@id/bucket_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:maxWidth="40dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:id="@+id/validity"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/network_name"
+        android:hint="validity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:maxWidth="60dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/validity"
+        android:hint="category"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="40dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/category"
+        android:hint="price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:maxWidth="30dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:id="@+id/subscription_code"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/price"
+        android:hint="code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:maxWidth="50dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <Button
+        android:id="@+id/sub_btn"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:text="SUB"
+        android:background="@drawable/button_back"
+        android:layout_width="40dp"
+        android:layout_height="30dp" />
+
+</RelativeLayout>

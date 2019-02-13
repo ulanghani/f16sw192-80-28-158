@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sakhicomputer.mrnetwork.Zong.Tab2_zong">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_marginTop="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:src="@color/color2"
+        />
+
+    <TextView
+        android:id="@+id/bucket_name"
+        android:layout_marginTop="20dp"
+        android:text="Bucket Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:maxWidth="70dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+
+        />
+
+    <TextView
+        android:id="@+id/network_name"
+        android:layout_marginTop="20dp"
+        android:text="Network name"
+        android:layout_toRightOf="@id/bucket_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:maxWidth="50dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+
+        />
+
+    <TextView
+        android:id="@+id/validity"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/network_name"
+        android:text="Validity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:maxWidth="60dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+
+
+        />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/validity"
+        android:text="Category"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="40dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/category"
+        android:text="Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:maxWidth="30dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+
+        />
+
+    <TextView
+        android:id="@+id/subscription_code"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/price"
+        android:text="Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:maxWidth="50dp"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlack"
+
+        />
+
+    <ListView
+        android:id="@+id/listt"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/subscription_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</RelativeLayout>
